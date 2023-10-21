@@ -1,0 +1,14 @@
+# Federal University of Mato Grosso
+# Computational * Federal University of Mato Grosso
+# Computer Institute
+# 
+# Course: Distributed System
+# 
+# To compile and generate jar file
+
+javac socketsSDCourse/*.java
+jar cvfm app.jar socketsSDCourse/MANIFEST.MF socketsSDCourse/*.class
+
+
+# To execute the app
+java -jar App.jar
